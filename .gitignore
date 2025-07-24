@@ -1,0 +1,6 @@
+
+__pycache__/
+.env
+pdfs/
+faiss_index/
+.history
