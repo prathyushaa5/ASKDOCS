@@ -12,8 +12,8 @@ load_dotenv()
 VECTOR_DB_PATH = "faiss_index"
 PDF_FOLDER = "pdfs"
 
-st.set_page_config(page_title="RAG Chatbot with Gemini", layout="wide")
-st.title("📚 Gemini-powered RAG PDF Chatbot")
+st.set_page_config(page_title="AskDocs", layout="wide")
+st.title("📚AskDocs-PDF Based Chatbot")
 
 if "vectorstore" not in st.session_state:
     st.session_state.vectorstore = None
